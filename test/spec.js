@@ -24,4 +24,11 @@ describe('quick test', () => {
       expect(movies.length).to.equal(4);
     });
   });
+
+  describe('Actors', () => {
+    it('there are 5 actors', async () => {
+      const actors = await Actor.findAll();
+      expect(actors.length).to.equal(5);
+    });
+  });
 });
