@@ -4,4 +4,4 @@ node_js:
 services:
   - postgresql
 before_script:
-  - psql -c 'create database acme-movie-api;' -U postgres
+  - psql -c 'create database acme_movie_api;' -U postgres

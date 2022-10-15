@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const { STRING } = Sequelize;
 const conn = new Sequelize(
-  process.env.DATABASE_URL || 'postgres://localhost/acme-movie-api',
+  process.env.DATABASE_URL || 'postgres://localhost/acme_movie_api',
   { logging: false }
 );
 
