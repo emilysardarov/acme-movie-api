@@ -1,0 +1,31 @@
+{
+  "name": "acme-movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/spec.js",
+    "test:dev": "npm run test -- --watch",
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilysardarov/acme-movie-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilysardarov/acme-movie-api/issues"
+  },
+  "homepage": "https://github.com/emilysardarov/acme-movie-api#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "path": "^0.12.7",
+    "supertest": "^6.3.0"
+  }
+}
